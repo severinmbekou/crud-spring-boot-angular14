@@ -7,12 +7,34 @@
     <li class="nav-item">
         <a routerLink="add" class="nav-link" routerLinkActive="active">Add Employee</a>
     </li>
+
+<!--    <li class="nav-item">-->
+<!--        <a aria-current="page" class="nav-link" (click)="login()"><span>Login</span></a>-->
+<!--    </li>-->
+
+<!--    <li class="nav-item dropdown has-arrow main-drop float-end">-->
+<!--      <a class="nav-link" (click)="onLogout()">Logout</a>-->
+<!--    </li>-->
+    <li class="nav-item">
+      <a class="nav-link" *ngIf="authService.isAuthenticated(); else loginFrame">
+        <a>
+          <span>{{authService.userName}}</span>
+        </a>
+      </a>
+      <ng-template #loginFrame>
+        <a aria-current="page" class="nav-link" (click)="login()"><span>Login</span></a>
+      </ng-template>
+    </li>
+
+    <li class="nav-item dropdown has-arrow main-drop float-end">
+      <a *ngIf="authService.isAuthenticated()" class="nav-link" (click)="onLogout()">Logout</a>
+    </li>
   </ul>
 </nav>
 <div class="container">
   <br>
   <h2 style="text-align: center;">{{title}}</h2>
-  <hr>  
+  <hr>
   <div class="card">
     <div class="card-body">
        <router-outlet></router-outlet>
