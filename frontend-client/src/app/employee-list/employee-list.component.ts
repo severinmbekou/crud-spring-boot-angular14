@@ -1,6 +1,6 @@
 import { EmployeeDetailsComponent } from '../employee-details/employee-details.component';
 import { Observable } from "rxjs";
-import { EmployeeService } from "../employee/employee.service";
+import { EmployeeService } from "../services/employee/employee.service";
 import { Employee } from "../model/employee";
 import { Component, OnInit } from "@angular/core";
 import { Router } from '@angular/router';

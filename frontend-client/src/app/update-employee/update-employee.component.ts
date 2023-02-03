@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Employee } from '../model/employee';
 import { ActivatedRoute, Router } from '@angular/router';
-import { EmployeeService } from '../employee/employee.service';
+import { EmployeeService } from '../services/employee/employee.service';
 
 @Component({
   selector: 'app-update-employee',
@@ -20,7 +20,7 @@ export class UpdateEmployeeComponent implements OnInit {
     this.employee = new Employee();
 
     this.id = this.route.snapshot.params['id'];
-    
+
     this.employeeService.getEmployee(this.id)
       .subscribe(data => {
         console.log(data)
@@ -38,7 +38,7 @@ export class UpdateEmployeeComponent implements OnInit {
   }
 
   onSubmit() {
-    this.updateEmployee();    
+    this.updateEmployee();
   }
 
   gotoList() {
