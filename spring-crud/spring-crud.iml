@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -29,8 +31,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -60,7 +62,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.25" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.25" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.25" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.25" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.25" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.25" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:2.1.214" level="project" />
@@ -119,5 +120,16 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-jose:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-core:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: com.nimbusds:nimbus-jose-jwt:9.22" level="project" />
+    <orderEntry type="library" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:2.7.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.7.6" level="project" />
   </component>
 </module>
