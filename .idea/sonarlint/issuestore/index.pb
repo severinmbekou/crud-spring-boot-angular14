@@ -57,11 +57,19 @@ U
 %frontend-client/src/app/app.module.ts,1\e\1ed5389f4fa18195db4609e255ccb53518f16714
 T
 $frontend-client/src/keycloak.util.ts,2\4\240dde88d3f687980a11a64260f51af2e42c54b7
-]
--frontend-client/src/app/app.routing.module.ts,4\5\457c2330e1edf4727c4884c7c47f2e01447682b0
+K
+spring-crud/spring-crud.iml,b\1\b190528d7e0fe8d95668a1df57fa8de76dcf5ce7
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 N
 frontend-client/src/index.html,8\2\82b1975974a00d95bb875a4541b8e173f53f68fe
 Z
 *frontend-client/src/app/app.component.html,e\7\e7f2ebb6b2abb54a9feab3c0b8f8a4ae5bdc2fbb
+]
+-frontend-client/src/app/app.routing.module.ts,4\5\457c2330e1edf4727c4884c7c47f2e01447682b0
+€
+Pspring-crud/src/main/java/com/androidcorpo/springcrud/config/SecurityConfig.java,2\1\218e7e1b5d29294a215d72dca300440ec3b3abea
 d
 4frontend-client/src/app/employee/employee.service.ts,1\7\17ca7ec69757b2afb55a7451b90a705b95cac0ab
+C
+spring-crud/pom.xml,f\9\f94b871037173137223d4e8e5f0ec75a5a65d2e4

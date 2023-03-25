@@ -22,6 +22,8 @@
     "jquery": "^3.6.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "keycloak-angular": "^13.0.0",
+    "keycloak-js": "^20.0.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
